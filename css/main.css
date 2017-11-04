@@ -1,0 +1,102 @@
+* {
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing: box;
+}
+
+
+body{
+	background-color: #137340;
+	color:white;
+}
+form{
+	width: 60%; 
+	/*Declara un mínimo de ancho*/
+	max-width: 600px;
+	min-width: 300px;
+	margin:0 auto;
+}
+textarea, 
+select,
+input{
+	width: 100%;
+	background-color: white;
+	padding:10px;
+	font-size: 16px;
+	margin-top: 8px;
+	margin-bottom: 8px,
+	border:1px solid:gold;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+	width:auto;
+}
+
+
+input[type="radio"] + label,
+input[type="checkbox"] + label {
+	width:auto;
+	display: inline-block;
+}
+label{
+	width:auto%;
+	font-size: 16px;
+	text-align:left;
+	display:block;
+}
+
+
+button{
+	width:auto;
+	height: auto;
+}
+textarea {
+	resize: none;
+	color:green;
+}
+a{
+	color:red;
+}
+a:hover{
+	color:black;
+}
+a:active{
+	color:#137340;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"]
+{
+	background-color: #1F3B21;
+}
+
+.field {
+	float:left;
+	width:100%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	text-align:center;
+}
+
+
+
+input:focus{
+	background-color: #0F1C10;
+	color:#FEEC92
+}
+select{
+	background-color: #1F3B21;
+	color:white;
+}
+input[type="checkbox"]:checked ~ label {
+	color:#FEEC92;
+}
+button:active {
+	background-color: green;
+	color:white;
+}
+#name-container > label {
+	background-color: #B1DA6F;
+}
+#namecontainer 
